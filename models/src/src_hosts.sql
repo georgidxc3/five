@@ -1,3 +1,4 @@
+-- creates raw_data materialized by default(set in project.yml) as view
 with raw_hosts as (
 select * from {{ source('airbnb', 'hosts') }}
 )

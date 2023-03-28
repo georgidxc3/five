@@ -1,3 +1,4 @@
+-- this table is for BI analysys redy 
 {{ config(
  materialized = 'table',
 ) }}

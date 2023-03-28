@@ -1,3 +1,4 @@
+-- this file with the help of jinja template is creating snapshot of raw_listings table
 {% snapshot scd_raw_listings %}
 
 {{

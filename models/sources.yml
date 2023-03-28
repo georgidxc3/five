@@ -1,10 +1,11 @@
+# this file ads an abstraction when we want to point to some table, we use the name from here instead hardcodeing it
 version: 2
 sources:
   - name: airbnb
     schema: raw
     tables:
-      - name: listings
-        identifier: raw_listings
+      - name: listings # name we are going to use 
+        identifier: raw_listings # name in the DB
       - name: hosts
         identifier: raw_hosts
       - name: reviews

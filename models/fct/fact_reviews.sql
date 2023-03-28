@@ -1,3 +1,7 @@
+
+-- we materialize as incremental to save all changes and historical data
+-- we use jinja template to chek if review_date is fresher then last review date
+
 {{
  config(
  materialized = 'incremental',

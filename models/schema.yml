@@ -1,3 +1,4 @@
+#  this file is running buil in tests that can check 0 unique, null, relationship, specific values
 version: 2
 
 models: 
