@@ -16,8 +16,12 @@ models:
               field: host_id
 
       - name: room_type
-        test:
+        tests:
           - accepted_values:
               values: ['Entire home/apt', 'Private room', 'Shared room', 'Hotel room']
       
+      - name: minimum_nights
+        tests:
+          - positive_value
 
+# new test from macro 
